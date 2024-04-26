@@ -1,0 +1,94 @@
+{
+    "parking_lots": [
+      {
+        "id": "1",
+        "name": "Main Parking Lot",
+        "location": "123 Main St, Anytown, USA",
+        "capacity": 100,
+        "available_spaces": 90,
+        "members": [
+          {
+            "id": "M001",
+            "name": "John Doe",
+            "vehicle_plate": "ABC123",
+            "parking_space": "A3",
+            "arrival_time": "2024-04-26T09:00:00",
+            "departure_time": null
+          },
+          {
+            "id": "M002",
+            "name": "Alice Johnson",
+            "vehicle_plate": "DEF456",
+            "parking_space": "B5",
+            "arrival_time": "2024-04-26T10:30:00",
+            "departure_time": null
+          },
+          {
+            "id": "M003",
+            "name": "Bob Williams",
+            "vehicle_plate": "GHI789",
+            "parking_space": "C2",
+            "arrival_time": "2024-04-26T11:15:00",
+            "departure_time": null
+          },
+          {
+            "id": "M004",
+            "name": "Emily Smith",
+            "vehicle_plate": "JKL012",
+            "parking_space": "D8",
+            "arrival_time": "2024-04-26T12:00:00",
+            "departure_time": null
+          },
+          {
+            "id": "M005",
+            "name": "Michael Brown",
+            "vehicle_plate": "MNO345",
+            "parking_space": "E12",
+            "arrival_time": "2024-04-26T13:20:00",
+            "departure_time": null
+          },
+          {
+            "id": "M006",
+            "name": "Sarah Wilson",
+            "vehicle_plate": "PQR678",
+            "parking_space": "F7",
+            "arrival_time": "2024-04-26T14:45:00",
+            "departure_time": null
+          },
+          {
+            "id": "M007",
+            "name": "David Martinez",
+            "vehicle_plate": "STU901",
+            "parking_space": "G1",
+            "arrival_time": "2024-04-26T15:10:00",
+            "departure_time": null
+          },
+          {
+            "id": "M008",
+            "name": "Emma Taylor",
+            "vehicle_plate": "VWX234",
+            "parking_space": "H9",
+            "arrival_time": "2024-04-26T16:30:00",
+            "departure_time": null
+          },
+          {
+            "id": "M009",
+            "name": "William Anderson",
+            "vehicle_plate": "YZA567",
+            "parking_space": "I4",
+            "arrival_time": "2024-04-26T17:15:00",
+            "departure_time": null
+          },
+          {
+            "id": "M010",
+            "name": "Olivia Lee",
+            "vehicle_plate": "BCD890",
+            "parking_space": "J10",
+            "arrival_time": "2024-04-26T18:00:00",
+            "departure_time": null
+          }
+        ]
+      }
+    ]
+  }
+  

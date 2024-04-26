@@ -1,89 +1,118 @@
 {
-    "parking_lots": [
-    
-    
-          {
-            "id": "M001",
-            "name": "John Doe",
-            "vehicle_plate": "ABC123",
-            "parking_space": "A3",
-            "arrival_time": "2024-04-26T09:00:00",
-            "departure_time": null
-          },
-          {
-            "id": "M002",
-            "name": "Alice Johnson",
-            "vehicle_plate": "DEF456",
-            "parking_space": "B5",
-            "arrival_time": "2024-04-26T10:30:00",
-            "departure_time": null
-          },
-          {
-            "id": "M003",
-            "name": "Bob Williams",
-            "vehicle_plate": "GHI789",
-            "parking_space": "C2",
-            "arrival_time": "2024-04-26T11:15:00",
-            "departure_time": null
-          },
-          {
-            "id": "M004",
-            "name": "Emily Smith",
-            "vehicle_plate": "JKL012",
-            "parking_space": "D8",
-            "arrival_time": "2024-04-26T12:00:00",
-            "departure_time": null
-          },
-          {
-            "id": "M005",
-            "name": "Michael Brown",
-            "vehicle_plate": "MNO345",
-            "parking_space": "E12",
-            "arrival_time": "2024-04-26T13:20:00",
-            "departure_time": null
-          },
-          {
-            "id": "M006",
-            "name": "Sarah Wilson",
-            "vehicle_plate": "PQR678",
-            "parking_space": "F7",
-            "arrival_time": "2024-04-26T14:45:00",
-            "departure_time": null
-          },
-          {
-            "id": "M007",
-            "name": "David Martinez",
-            "vehicle_plate": "STU901",
-            "parking_space": "G1",
-            "arrival_time": "2024-04-26T15:10:00",
-            "departure_time": null
-          },
-          {
-            "id": "M008",
-            "name": "Emma Taylor",
-            "vehicle_plate": "VWX234",
-            "parking_space": "H9",
-            "arrival_time": "2024-04-26T16:30:00",
-            "departure_time": null
-          },
-          {
-            "id": "M009",
-            "name": "William Anderson",
-            "vehicle_plate": "YZA567",
-            "parking_space": "I4",
-            "arrival_time": "2024-04-26T17:15:00",
-            "departure_time": null
-          },
-          {
-            "id": "M010",
-            "name": "Olivia Lee",
-            "vehicle_plate": "BCD890",
-            "parking_space": "J10",
-            "arrival_time": "2024-04-26T18:00:00",
-            "departure_time": null
-          }
-        ]
-      }
-    
-  
-  
+  "parking_lots": [
+    {
+      "name": "Parking Lot 1",
+      "location": "123 Main St",
+      "capacity": 50,
+      "available_spaces": 25,
+      "members": [
+        {
+          "id": 1,
+          "name": "John Doe",
+          "vehicle_plate": "ABC123",
+          "parking_space": "A1",
+          "arrival_time": "2024-04-26T08:00:00",
+          "departure_time": "2024-04-26T16:00:00"
+        },
+        {
+          "id": 2,
+          "name": "Jane Smith",
+          "vehicle_plate": "XYZ789",
+          "parking_space": "B3",
+          "arrival_time": "2024-04-26T09:00:00",
+          "departure_time": "2024-04-26T17:00:00"
+        }
+      ]
+    },
+    {
+      "name": "Parking Lot 2",
+      "location": "456 Elm St",
+      "capacity": 100,
+      "available_spaces": 75,
+      "members": [
+        {
+          "id": 3,
+          "name": "Alice Johnson",
+          "vehicle_plate": "DEF456",
+          "parking_space": "C2",
+          "arrival_time": "2024-04-26T07:30:00",
+          "departure_time": null
+        }
+      ]
+    },
+    {
+      "name": "Parking Lot 3",
+      "location": "789 Oak St",
+      "capacity": 75,
+      "available_spaces": 50,
+      "members": [
+        {
+          "id": 4,
+          "name": "Bob Williams",
+          "vehicle_plate": "GHI789",
+          "parking_space": "D5",
+          "arrival_time": "2024-04-26T10:30:00",
+          "departure_time": "2024-04-26T18:30:00"
+        }
+      ]
+    },
+    {
+      "name": "Parking Lot 4",
+      "location": "101 Pine St",
+      "capacity": 60,
+      "available_spaces": 40,
+      "members": [
+        {
+          "id": 5,
+          "name": "Carol Brown",
+          "vehicle_plate": "JKL012",
+          "parking_space": "E1",
+          "arrival_time": "2024-04-26T11:00:00",
+          "departure_time": null
+        }
+      ]
+    },
+    {
+      "name": "Parking Lot 5",
+      "location": "202 Cedar St",
+      "capacity": 80,
+      "available_spaces": 60,
+      "members": []
+    },
+    {
+      "name": "Parking Lot 6",
+      "location": "303 Maple St",
+      "capacity": 70,
+      "available_spaces": 45,
+      "members": []
+    },
+    {
+      "name": "Parking Lot 7",
+      "location": "404 Walnut St",
+      "capacity": 90,
+      "available_spaces": 70,
+      "members": []
+    },
+    {
+      "name": "Parking Lot 8",
+      "location": "505 Cherry St",
+      "capacity": 100,
+      "available_spaces": 80,
+      "members": []
+    },
+    {
+      "name": "Parking Lot 9",
+      "location": "606 Birch St",
+      "capacity": 120,
+      "available_spaces": 90,
+      "members": []
+    },
+    {
+      "name": "Parking Lot 10",
+      "location": "707 Poplar St",
+      "capacity": 150,
+      "available_spaces": 100,
+      "members": []
+    }
+  ]
+}

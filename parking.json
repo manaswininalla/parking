@@ -1,12 +1,7 @@
 {
     "parking_lots": [
-      {
-        "id": "1",
-        "name": "Main Parking Lot",
-        "location": "123 Main St, Anytown, USA",
-        "capacity": 100,
-        "available_spaces": 90,
-        "members": [
+    
+    
           {
             "id": "M001",
             "name": "John Doe",
@@ -89,6 +84,6 @@
           }
         ]
       }
-    ]
-  }
+    
+  
   
